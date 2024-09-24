@@ -3,67 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student List</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            background-color: #f4f4f4;
-            margin: 5px 0;
-            padding: 10px;
-            border-radius: 5px;
-        }
-    </style>
+    <title>My Portfolio</title>
 </head>
 <body>
-    <h1>List of Students</h1>
+
+    <img src="C:\Users\chris\OneDrive\kay\portfolio\picture.jpeg" alt="Profile Picture" width="150" height="150" style="border-radius: 50%;">
+
+    <h1>Christine Lorence H. Bonifacio</h1>
+
+    <h2>About Me</h2>
+    <p>I am currently a third year IT student, eager to learn and explore new things. Being an IT student has opened up a whole new world
+        of possibilities for me, both personally and professionally. From learning new programing languages to developing innovative solutions.</p>
+
+    <h2>Skills</h2>
     <ul>
-        <li>Student 1: LORENZANA, HENER</li>
-	    <li>Student 2: SOLIVEN, JUBEN AZLEY G.</li>
-	    <li>Student 3: MARQUEZ, JAYSER JOY M.</li>
-		<li>Student 4: PASCUA, MICHAEL ANGIELO G.</li>
-		<li>Student 5: ESPINOZA, JOSHUA L.</li>
-		<li>Student 6: APULOG, JOSHUA N.</li>
-		<li>Student 7: BONAGUA, REGEDIO M.</li>
-		<li>Student 8: NAVARRO, RIVEN M.</li>
-		<li>Student 9: PIAOAN, DEEJAY D.</li>
-	    <li>Student 10: MAALA, ATORNEE O.</li>
-		<li>Student 11: HABON, PRINCESS MAYLENE</li>
-		<li>Student 12: LORENA, FRANJO CHRISTOPHER M.</li>  
-        <li>Student 13: LOPEZ, CARLOS O.</li>
-		<li>Student 14: SANTOS,VICTOR B.</li>
-		<li>Student 15: RARAS, ROGELIZA Y.</li>
-		<li>Student 16: BULONG, POL ANDREI L.</li>
-        <li>Student 17: ROSALES, JOSEPH B.</li>
-        <li>Student 18: BONIFACIO, CHRISTINE LORENCE H.</li>
-        <li>Student 19: LOPEZ, JASTIN DAVID O.</li>
-        <li>Student 20: GIONG-AN, JOHN MICHAEL P.</li>
-        <li>Student 21: MOSTER, STEPHEN JOSEPH M.</li>
-        <li>Student 22: VILLEGAS, DANE LAURENZE G.</li>
-        <li>Student 23: DABALOS, SHEKEINA KARYLLE D.</li>
-        <li>student 24: NARVAZA, OLIVER, M.</li>
-        <li>Student 25: ROSARIO, CHRISTIAN S.</li>
-        <li>Student 26: LORENA, REVIN KING, M.</li>
-        <li>Student 27: HERNANDEZ, NISHREN V.</li>
-        <li>Student 28: CATRIZ, BERNARDO JR., F.</li>
-        <li>Student 29: LOBOS, JHON CLARENCE S.</li>
-        <li>Student 30: YUKEE, AZRIEL JON M.</li>
-        <li>Student 31: ISIDRO, AZHLY ANGEL V.</li>
-        <li>Student 32: TAN, LOVELY D.</li>
-        <li>Student 33: PASTORAL, FRITZ M.</li>
-        <li>Student 34: TOMARA, ABRAHAM LOUIS E.</li>
-        <li>Student 35: MOSTOLES, JOHN PAUL M.</li>
-        <li>Student 36: LARIOZA, ADRIAN RED S.</li>
-        <li>Student 37: GONZALES, FERDINAND B.</li>
+        <li><strong>Knowledge of Software Applications:</strong> Word, Excel, Powerpoint</li>
+        <li><strong>Basic Computer Hardware Knowledge:</strong> RAM, CPU, Storage</li>
+        <li><strong>Familiarity with Internet and Networking Concepts and Protocols:</strong> TCP/IP, HTTP, FTP</li>
+    </ul>
+
+    <h2>Project Showcase</h2>
+
+    <h3>Web Development Projects</h3>
+    <ol>
+        <li><strong>Online Portfolio</strong><br>Developed a personal portfolio website using HTML, CSS and JavaScript.</li>
+        <li><strong>Online Makeup Store Website</strong><br>Developed a website for an online makeup store, featuring e-commerce functionality and
+            user-friendly interface.</li>
+        <li><strong>Online Library Website</strong><br>Built an online library website that offers user account functionality, a search function 
+            for finding books and options for borrowing and returning books.</li>
+    </ol>
+
+
+    <h2>Credentials</h2>
+    <table border="1">
+        <tr>
+            <th>Certificate Name</th>
+            <th>Completion Date</th>
+        </tr>
+        <tr>
+            <td>Firebase 101</td>
+            <td>5-02-2024</td>
+        </tr>
+        <tr>
+            <td>IT Advancement</td>
+            <td>5-16-2024</td>
+        </tr>
+        <tr>
+            <td>IT Trends</td>
+            <td>5-21-2024</td>
+        </tr>
+    </table>
+   
+
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out to me for collaborations.</p>
+    <p><strong>Email:</strong> bonifacio@gmail.com</p>
+    <p><strong>Phone:</strong> 0916 462 6554</p>
+
+   
+    <h2>Contact Form</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+  
+    <h2>External Links</h2>
+    <ul>
+        <li><a href="https://github.com/yourusername" target="_blank">GitHub Profile</a></li>
+        <li><a href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn Profile</a></li>
     </ul>
 </body>
 </html>
